@@ -19,8 +19,8 @@
 }
 \titlespacing{\section}{0pt}{4pt plus 0pt minus 0pt}{0pt plus 0pt minus 0pt}
 \titlespacing{\subsection}{0pt}{4pt plus 0pt minus 0pt}{0pt plus 0pt minus 0pt}
-\titleformat*{\section}{\vspace{6pt}\titlerule\vspace{4pt}\large\bfseries}
-\titleformat*{\subsection}{\vspace{2pt}\bfseries}
+\titleformat{\section}{\large\bfseries}{}{}{\vspace{2pt}}[\titlerule\vspace{4pt}]
+\titleformat{\subsection}{\bfseries}{}{}{\vspace{2pt}}[]
 \setlength\parindent{0pt}
 \setlength\parskip{0pt}
 
@@ -63,7 +63,7 @@ A Levels - 3A* 1A in Mathematics, Further Mathematics, Physics and Computing
 \begin{itemize}
     \item Working on a progressive web application to increase cross border transactions
     \item Responsible for creating a RESTful backend API using Node.js and the Express.js library
-    \item Used Mocha and Chai to create unit tests
+    \item Used the Mocha framework and Chai library to create unit tests
     \item In charge of integrating API with an Angular frontend
 \end{itemize}
 
